@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tab</title>
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        table {
+            height: 100vh;
+            width: 100%;
+        }
+
         table,
         td {
             border: 2px solid black;
             border-collapse: collapse;
-
+            table-layout: fixed;
         }
 
         td {
-            width: 100vh;
             padding-top: 3.5rem;
             padding-bottom: 3.5rem;
         }
